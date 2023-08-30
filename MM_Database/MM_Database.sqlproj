@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{7a9bdbe6-7b96-4ae2-a12c-7fed1d03fca1}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -58,6 +58,13 @@
     <Folder Include="Properties" />
     <Folder Include="Programmability" />
     <Folder Include="Table" />
+    <Folder Include="Programmability\StoredFunctions" />
+    <Folder Include="Programmability\StoredProcedures" />
+    <Folder Include="Programmability\StoredProcedures\Artist" />
+    <Folder Include="Programmability\StoredProcedures\Masher" />
+    <Folder Include="Programmability\StoredProcedures\Mashup" />
+    <Folder Include="Programmability\StoredProcedures\Track" />
+    <Folder Include="Programmability\StoredProcedures\User" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Table\Artist.sql" />
@@ -65,5 +72,14 @@
     <Build Include="Table\Mashup.sql" />
     <Build Include="Table\Track.sql" />
     <Build Include="Table\User.sql" />
+    <Build Include="Programmability\StoredFunctions\MMSF_GetPostSalt.sql" />
+    <Build Include="Programmability\StoredFunctions\MMSF_GetPreSalt.sql" />
+    <Build Include="Programmability\StoredFunctions\MMSF_HashPassword.sql" />
+    <Build Include="Programmability\StoredProcedures\Artist\MMSP_AddArtist.sql" />
+    <Build Include="Programmability\StoredProcedures\Masher\MMSP_AddMasher.sql" />
+    <Build Include="Programmability\StoredProcedures\Mashup\MMSP_AddMashup.sql" />
+    <Build Include="Programmability\StoredProcedures\Track\MMSP_AddTrack.sql" />
+    <Build Include="Programmability\StoredProcedures\User\MMSP_Login.sql" />
+    <Build Include="Programmability\StoredProcedures\User\MMSP_Register.sql" />
   </ItemGroup>
 </Project>
