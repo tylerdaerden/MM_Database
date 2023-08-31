@@ -82,4 +82,7 @@
     <Build Include="Programmability\StoredProcedures\User\MMSP_Login.sql" />
     <Build Include="Programmability\StoredProcedures\User\MMSP_Register.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="MM_Database_1.publish.xml" />
+  </ItemGroup>
 </Project>
