@@ -4,6 +4,5 @@
 	[MasherName] NVARCHAR(100) NOT NULL , 
 	[WebLink] NCHAR(80) NULL
 
-    CONSTRAINT [PK_Masher] PRIMARY KEY ([Id]),
-	CONSTRAINT [UK_Masher] UNIQUE ([MasherName])
+    CONSTRAINT [PK_Masher] PRIMARY KEY ([Id])
 )
