@@ -81,6 +81,9 @@
     <Build Include="Programmability\StoredProcedures\Track\MMSP_AddTrack.sql" />
     <Build Include="Programmability\StoredProcedures\User\MMSP_Login.sql" />
     <Build Include="Programmability\StoredProcedures\User\MMSP_Register.sql" />
+    <Build Include="Programmability\StoredProcedures\User\MMSP_UpdateUserAdminStatus.sql" />
+    <Build Include="Table\MashupTrack.sql" />
+    <Build Include="Table\TrackId.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MM_Database_1.publish.xml" />

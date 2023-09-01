@@ -10,7 +10,6 @@
 
 
 	CONSTRAINT [PK_Track] PRIMARY KEY ([Id]) ,
-	CONSTRAINT [UK_Track] UNIQUE ([Title]),
 	CONSTRAINT [FK_Track] FOREIGN KEY ([ArtistId])
 	REFERENCES [Artist](Id)
 	--CONSTRAINT [CK_Track] CHECK 
