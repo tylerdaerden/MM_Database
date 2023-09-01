@@ -84,6 +84,11 @@
     <Build Include="Programmability\StoredProcedures\User\MMSP_UpdateUserAdminStatus.sql" />
     <Build Include="Table\MashupTrack.sql" />
     <Build Include="Table\TrackId.sql" />
+    <Build Include="Programmability\StoredProcedures\Mashup\MMSP_UpdateMashup.sql" />
+    <Build Include="Programmability\StoredProcedures\Mashup\MMSP_GetMashupbyId.sql" />
+    <Build Include="Programmability\StoredProcedures\Mashup\MMSP_GetMashupbyTitle.sql" />
+    <Build Include="Programmability\StoredProcedures\Mashup\MMSP_GetMashupbyArtist.sql" />
+    <Build Include="Programmability\StoredProcedures\Mashup\MMSP_GetMashupbyMasher.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MM_Database_1.publish.xml" />
