@@ -6,7 +6,7 @@
 	[Length] INT NOT NULL,
 	[MasherId] INT
 
-	CONSTRAINT [PK_Mashup] PRIMARY KEY ([Id]),
+	CONSTRAINT [PK_Mashup] PRIMARY KEY ([Id]) NULL,
 	CONSTRAINT [FK_Mashup] FOREIGN KEY ([MasherId]) REFERENCES [Masher](Id)
 
 )

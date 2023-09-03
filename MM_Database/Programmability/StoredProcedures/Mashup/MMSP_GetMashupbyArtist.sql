@@ -2,11 +2,7 @@
 	@MashupArtist NVARCHAR(100)
 AS
 BEGIN
-SELECT PathFile as [Mashups] 
-FROM [dbo].Mashup
-UNION
-SELECT ArtistName
-FROM [dbo].Track
-WHERE [ArtistName] = @MashupArtist
-
+SELECT DISTINCT PathFile as [Mashups] , t.ArtistName as [Artist]
+FROM [dbo].Mashup as m
+LEFT JOIN [Track] as t ON m.Id = t.ArtistId
 END
